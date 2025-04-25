@@ -1,0 +1,5 @@
+L = list(range(1,11))
+print(L)
+print(L[:3])
+print(L[-1])
+print(L[len(L)-1])

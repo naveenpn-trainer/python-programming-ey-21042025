@@ -1,0 +1,11 @@
+S = {11,1,22,3,1,3,"A"}
+L = list(S)
+print(L)
+print(type(S))
+print(S)
+S.pop()
+print(S)
+S.pop()
+print(S)
+# S.remove('3')
+S.discard('3')
