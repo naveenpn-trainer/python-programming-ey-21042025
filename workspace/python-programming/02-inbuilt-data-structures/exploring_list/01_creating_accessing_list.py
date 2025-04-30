@@ -1,5 +1,6 @@
-# L1 = list([1,2,3,4,5])
-# print(type(L1))
+L1 = list(["1",2,3,4,5])
+print(type(L1))
+print(L1)
 
 L = [1,2,3,4]
 print(type(L))

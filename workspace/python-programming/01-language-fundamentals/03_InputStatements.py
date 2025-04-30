@@ -4,7 +4,7 @@ if __name__ == '__main__':
     # b = bool(input("Enter a value"))
     # print(b)
     # print(type(b))
-    # x = int(input("Enter x (value)"))
+    x = int(input("Enter x (value)"))
     # print(type(x))
     # y = int(input("Enter y (value)"))
     # print(x+y)

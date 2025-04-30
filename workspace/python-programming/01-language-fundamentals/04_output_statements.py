@@ -1,3 +1,4 @@
+print("A","B")
 print("A",end=",")
 print("B")
 

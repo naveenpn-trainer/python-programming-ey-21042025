@@ -1,7 +1,10 @@
-def call_me(*x):
-    print(x)
-    print(type(x))
+def sum_of_numbers(*x):
+    # result = 0
+    # for e in x:
+    #     result+=e
+    # print(result)
+    print(sum(x))
 
-call_me(2)
-call_me(23,25)
-call_me(34,34,34)
+sum_of_numbers(2)
+sum_of_numbers(23, 25)
+sum_of_numbers(34, 34, 34)
