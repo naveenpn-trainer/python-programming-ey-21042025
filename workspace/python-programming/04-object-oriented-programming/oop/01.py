@@ -1,6 +1,7 @@
 '''
 
-1. If we create an object of Derived class it is mandatory to call the base class constructor
+1. If we create an object of Derived class it is mand
+class constructor
 '''
 
 class A:
