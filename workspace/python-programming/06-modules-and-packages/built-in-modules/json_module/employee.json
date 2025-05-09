@@ -1,0 +1,23 @@
+[
+    {
+        "id": 101,
+        "name": "Arjuna",
+        "department": "Engineering",
+        "salary": 95000,
+        "active": true
+    },
+    {
+        "id": 102,
+        "name": "Balaram",
+        "department": "Sales",
+        "salary": 70000,
+        "active": false
+    },
+    {
+        "id": 103,
+        "name": "Chaitanya",
+        "department": "Engineering",
+        "salary": 105000,
+        "active": true
+    }
+]
