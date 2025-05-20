@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, Boolean, Date, insert
 from datetime import date
 
-engine = create_engine("sqlite:///book_management_system.db")
+engine = create_engine("sqlite:///book_management_system.db", echo=True)
 metadata = MetaData()
 book_catalog = Table("book_catalog", metadata, autoload_with=engine)
 with engine.connect() as con:

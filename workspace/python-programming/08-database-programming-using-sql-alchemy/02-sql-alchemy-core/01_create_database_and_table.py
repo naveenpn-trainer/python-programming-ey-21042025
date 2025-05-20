@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, Boolean, Date
 
 # Create an engine
-engine = create_engine("sqlite:///book_management_system.db")
+engine = create_engine("sqlite:///book_management_system.db",echo=True)
 metadata = MetaData()
 
 #  Define a 'book_catalog' table
